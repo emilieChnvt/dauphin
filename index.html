@@ -52,6 +52,10 @@
         <br/>
         <label for="mail">Email</label>
         <input type="email" name="mail"/>
+        <br/>
+
+        <label for="avataer">Avatar</label>
+        <input
 
 
         <div>
@@ -62,15 +66,23 @@
             <label for="femme">Femme</label>
         </div>
         <br/>
-
-        <select name="fruits">
-            <option>orange</option>
-            <option>fraise</option>
-            <option>citron</option>
-        </select>
-
-        <input type="checkbox" name="fruit">
-        <label for="fruit">citron</label>
+        <div>
+            <label for="name">Pays</label>
+          <select name="pays">
+              <option value="espagne">Espagne</option>
+              <option value="paris">Paris</option>
+              <option value="italie">Italie</option>
+          </select>
+        </div>
+        <div>
+            <p>quel est votre fruit préféré</p>
+            <input type="checkbox" name="fruit" checked>
+            <label for="orange">orange</label>
+            <input type="checkbox" name="fruit">
+            <label for="fruit">citron</label>
+            <input type="checkbox" name="fruit">
+            <label for="fruit">fraise</label>
+        </div>
 
         <br/>
 
@@ -101,10 +113,18 @@
         <label for="color">Couleur</label>
         <input type="color" name="color">
         <br/>
+        <label for="nom" placeholder="test">Nom</label>
+        <input type="text">
+        <br/>
 
-
-
-        <input type="submit" value="envoyer"/>
+        <input type="submit" value="s'inscrire"/>
+        <div>
+            <input type="submit" value="s'inscrire Autre bouton">
+            <input type="date" name="date">
+            <label for="nom">Votre nom</label>
+            <input type="text" name="nom" value="michel">
+            <input type="submit" value="envoyer">
+        </div>
 
 
 
